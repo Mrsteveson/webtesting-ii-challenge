@@ -18,7 +18,7 @@ class Dashboard extends React.Component {
                     <button onClick={this.foul}>Foul</button>
                     <button onClick={this.hit}>Hit</button>
                 </div>
-                <h1>The Count</h1>
+            
                 <Display 
                     strikes = {this.state.strikes}
                     balls = {this.state.balls}
